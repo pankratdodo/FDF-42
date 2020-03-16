@@ -6,7 +6,7 @@
 /*   By: plettie <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/03/15 16:01:50 by plettie           #+#    #+#             */
-/*   Updated: 2020/03/16 19:30:28 by plettie          ###   ########.fr       */
+/*   Updated: 2020/03/16 19:54:13 by plettie          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,23 +58,23 @@ void		draw_line(t_point *first, t_point *last, int *adr, t_default *def)
 
 void		ft_menu(t_main *data)
 {
-	mlx_string_put(data->mlx, data->win, 10, 710, 0x808080,
+	mlx_string_put(data->mlx, data->win, 10, 1010, 0x808080,
 			"Push '1', '2', '3', '4', to change color");
-	mlx_string_put(data->mlx, data->win, 10, 730, 0x808080,
+	mlx_string_put(data->mlx, data->win, 10, 1030, 0x808080,
 			"Push 'ESC' to exit");
-	mlx_string_put(data->mlx, data->win, 10, 750, 0x808080,
+	mlx_string_put(data->mlx, data->win, 10, 1050, 0x808080,
 			"Push 'LEFT' and 'RIGHT' to move on axis X");
-	mlx_string_put(data->mlx, data->win, 10, 770, 0x808080,
+	mlx_string_put(data->mlx, data->win, 10, 1070, 0x808080,
 			"Push 'UP' and 'DOWN' to move on axis Y");
-	mlx_string_put(data->mlx, data->win, 10, 790, 0x808080,
+	mlx_string_put(data->mlx, data->win, 10, 1090, 0x808080,
 			"Push '+' and '-' to change zoom");
-	mlx_string_put(data->mlx, data->win, 10, 810, 0x808080,
+	mlx_string_put(data->mlx, data->win, 10, 1110, 0x808080,
 			"Push 'I' to change  projection");
-	mlx_string_put(data->mlx, data->win, 10, 830, 0x808080,
+	mlx_string_put(data->mlx, data->win, 10, 1130, 0x808080,
 			"Push 'Q' and 'E' to rotate on axis X");
-	mlx_string_put(data->mlx, data->win, 10, 850, 0x808080,
+	mlx_string_put(data->mlx, data->win, 10, 1150, 0x808080,
 			"Push 'A' and 'D' to rotate on axis Y");
-	mlx_string_put(data->mlx, data->win, 10, 870, 0x808080,
+	mlx_string_put(data->mlx, data->win, 10, 1170, 0x808080,
 			"Push 'Z' and 'C' to rotate on axis Z");
 }
 

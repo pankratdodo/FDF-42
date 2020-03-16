@@ -6,7 +6,7 @@
 /*   By: crycherd <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/03/01 21:49:26 by crycherd          #+#    #+#             */
-/*   Updated: 2020/03/01 21:50:55 by crycherd         ###   ########.fr       */
+/*   Updated: 2020/03/16 19:52:19 by plettie          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@
 # include "mlx.h"
 
 # define WIDTH 1600
-# define HEIGHT 900
+# define HEIGHT 1200
 
 # define ESCAPE 53
 # define KEY_ISO 34

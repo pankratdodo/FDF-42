@@ -5,6 +5,8 @@ The program involves basics of graphic programming with miniLibX
 The representation in 3D of a landscape is a critical aspect of modern mapping. This project is about creating a simplified graphic “wireframe” (“fils de fer” in french,
 hence the name of the project) representation of a relief landscape linking various points (x, y, z) via segments. The coordinates of this landscape are stored in a file passed as a parameter to your program.
 
+![](France.png)
+
 ## Installation
 1. Download/Clone this repo
 ```
@@ -36,6 +38,8 @@ make
 - Must be able to quit the program by pressing `esc`.
 - The use of images from `minilibX` is strongly encouraged.
 - Find attached a binary called fdf.
+
+![](Mars.png)
 
 #### Bonus part
 - Change color using `1`, `2`, `3`, `4`.

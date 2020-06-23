@@ -14,8 +14,7 @@ git clone https://github.com/pankratdodo/FDF-42.git
 ```
 2. `cd` into directrory and run `make`
 ```
-make
-./fdf test_maps/'any file'.fdf
+cd FDF-42 && make && ./fdf test_maps/'any file'.fdf
 ```
 
 ## Main project instructions
